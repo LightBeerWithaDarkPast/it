@@ -45,3 +45,4 @@ for k in range(100):
 print('max t =', max(Time_list))
 print('average t =', calcSumm(Time_list)/100)
 print('min t =', min(Time_list))
+
