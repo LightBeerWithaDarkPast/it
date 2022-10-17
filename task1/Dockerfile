@@ -1,7 +1,5 @@
 FROM python
 MAINTAINER Grinenko Aleksandr 'Grinenko-aleksandr@mail.ru'
-WORKDIR /dz1
+WORKDIR /app
 COPY . .
-EXPOSE 3000
-RUN make /dz1
-CMD python /dz1.py
+CMD ["python", "DZ1.py"]
