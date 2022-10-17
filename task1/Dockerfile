@@ -1,5 +1,5 @@
 FROM compdatasci/spyder-desktop
 MAINTAINER Grinenko Aleksandr 'Grinenko-aleksandr@mail.ru'
-WORKDIR /app
+WORKDIR /DZ1
 COPY . .
-CMD ['DZ1.py']
+CMD ['spyder-desktop', 'DZ1.py']
