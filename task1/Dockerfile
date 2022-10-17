@@ -1,4 +1,4 @@
-FROM compdatasci/spyder-desktop
+FROM python
 MAINTAINER Grinenko Aleksandr 'Grinenko-aleksandr@mail.ru'
 WORKDIR /dz1
 COPY . .
