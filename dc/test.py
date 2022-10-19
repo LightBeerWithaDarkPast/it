@@ -1,3 +1,5 @@
 print('hellow world')
-p = input()
-print(p)
+f1 = open('hist1.txt')
+f2 = open('hist2.txt')
+print(f1.read())
+print(f2.read())
