@@ -6,6 +6,4 @@ COPY . .
 
 RUN pip install numpy
 
-EXPOSE 3000
-
 CMD [ "python", "dz2.py" ]
