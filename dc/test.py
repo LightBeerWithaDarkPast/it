@@ -1,2 +1,2 @@
-while True
-  print('hellow world')
+print('hellow world')
+p = input()
