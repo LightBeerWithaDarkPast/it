@@ -17,7 +17,8 @@ while True:
     try: a = int(input('Введите число звездочек слева и справа от \
 центральноей звездочки на нижней стороне: '))
     except: pass
-    if a >= 0: break
+    else:
+        if a >= 0: break
     print('\nВведены неверные данные.\n')
     
 triangle(a)
