@@ -1,0 +1,19 @@
+@startuml name
+
+class bot_model {
+    x
+    y
+    alfa
+    V
+    Valfa
+    void forward(time)
+    void stop(time)
+}
+
+class App {
+    void on_message(message) 
+    void process_message(message)  
+}
+
+App *-- RobotModel
+@enduml
